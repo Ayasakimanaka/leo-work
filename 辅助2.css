@@ -1,0 +1,79 @@
+  body{
+	  	background-image: url(https://th.bing.com/th/id/R.1d12ded79baf29e35085f7ac8f5d714b?rik=%2bYm4Ngoh4vbNKA&riu=http%3a%2f%2fimg.1ppt.com%2fuploads%2fallimg%2f1804%2f1_180430103522_2.jpg&ehk=xRX3G5g8WX2kEDkuobokdaUFNPnHYoJ385YjF35RRoc%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1);
+	  	background-repeat: repeat;
+	  	background-attachment: fixed;
+	  	background-size: cover;
+	  }
+	  .FIFA{
+	  	font-size: 100PX;
+	  	color: black;
+	  	font-family: 'Merriweather', serif;
+	  }
+	  .load{
+	  	width: 19%;
+	  	float: left;
+	  	font-size: 30px;
+	  	color: white;
+	  	border: dotted 2px #4400ff;
+	  	background-color: darkblue;
+	  }
+	  a:hover{
+	  	background-color: skyblue;
+	  }
+	  a{
+        text-decoration: none;
+        color: black;
+	  }
+	  #online{
+	  	margin-left: 30px;
+	  }
+	  .three{
+	  	color: black;
+	  	font-size: 30px;
+	  }
+	  .over{
+	  	width: 19%;
+	  }
+      .one {
+			position: absolute;
+			width: 500px;
+			height: 400px;
+			overflow: hidden;
+		}
+	.one_cantent img {
+			width: 500px;
+			height: 300px;
+			float: left;
+		}
+	.one_cantent {
+			width: 2500px;
+			height: 400px;
+			position: absolute;
+			left: 0px;
+			animation-name: move;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+		}
+	@keyframes move {
+			0% {
+				left: 0px;
+			}
+			25% {
+				left: -500px;
+			}
+			50% {
+				left: -1000px;
+			}
+			75% {
+				left: -1500px;
+			}
+			100% {
+				left: -2000px
+			}
+		}
+		#az{
+			margin-left: 15px;
+		}
+	    .load{
+	    	margin-top: 20px;
+	    }
